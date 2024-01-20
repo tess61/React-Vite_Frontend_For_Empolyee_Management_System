@@ -1,0 +1,13 @@
+:root {
+  --bs-dark-rgb: 34, 56, 78; /* Example RGB values */
+  --bs-bg-opacity: 1;     /* Example opacity value */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  text-align: center;
+  color: whitesmoke;
+}
